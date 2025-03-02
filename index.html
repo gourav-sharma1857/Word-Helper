@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synonym, Antonym & Rhyme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Word Helper</h1>
+    
+    <!-- Light/Dark Mode Toggle -->
+    <button id="mode-toggle" onclick="toggleMode()">Switch to Dark Mode</button>
+    
+    <!-- Input Area -->
+    <input type="text" id="word-input" placeholder="Enter a word">
+    <button onclick="getWordDetails()">Get Word Details</button>
+    
+    <div id="synonyms-section">
+        <h2>Synonyms</h2>
+        <ul id="synonyms-list"></ul>
+    </div>
+
+    <div id="antonyms-section">
+        <h2>Antonyms</h2>
+        <ul id="antonyms-list"></ul>
+    </div>
+    
+    <div id="rhymes-section">
+        <h2>Rhyming Words</h2>
+        <ul id="rhymes-list"></ul>
+    </div>
+
+    <div id="meaning-container" class="result-container">
+        <h3>Meaning:</h3>
+        <ul id="meaning"></p>
+    </div>
+
+    <h3>Voice Input</h3>
+    <button id="voice-btn">Speak</button>
+    <p id="spoken-word"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
