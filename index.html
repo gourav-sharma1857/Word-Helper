@@ -41,5 +41,17 @@
     <p id="spoken-word"></p>
     
     <script src="script.js"></script>
+     <script>
+        function createStars() {
+            for (let i = 0; i < 50; i++) {
+                let star = document.createElement('div');
+                star.className = 'stars';
+                star.style.left = Math.random() * window.innerWidth + 'px';
+                star.style.top = Math.random() * window.innerHeight + 'px';
+                document.body.appendChild(star);
+            }
+        }
+        createStars();
+    </script>
 </body>
 </html>
