@@ -8,7 +8,7 @@ body {
     animation: gradientBG 10s ease infinite;
     color: black;
     position: relative;
-    overflow: hidden;
+    overflow: overflow;
 }
 
 @keyframes gradientBG {
