@@ -1,0 +1,1 @@
+The Word Helper is an interactive web application designed to assist users with discovering synonyms, antonyms, rhyming words, and the meaning of any word. The application uses powerful APIs such as Datamuse for word relations and Wordnik for word definitions, offering users an easy way to explore language and enhance their vocabulary.
